@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/black"
+        android:id="@+id/message_user"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="4dp"
+        android:text="Prajwal"
+        android:textStyle="normal|bold"
+        android:fontFamily="sans-serif"
+        android:textSize="12sp"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/message_user"
+        android:layout_marginLeft="15dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="1dp"
+        android:id="@+id/message_text"
+        android:textColor="@color/white"
+        android:text="this is a message"
+        android:background="@drawable/textbackground"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="14sp"
+        android:layout_alignParentLeft="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/message_text"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/black"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="2dp"
+        android:text="20:01"
+        android:id="@+id/message_time"
+        android:layout_alignParentLeft="true"
+        android:textSize="8sp"
+       />
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1026666850200",
+    "project_id": "octamed-ffb76",
+    "storage_bucket": "octamed-ffb76.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1026666850200:android:fecafb45013b5d9463eded",
+        "android_client_info": {
+          "package_name": "com.example.octamed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1026666850200-qam0ap6ibqff7ncmjjrcrnmd6r3svs8o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDs6c2DXgd0OXilW7uUoo0FqDaPScelDws"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1026666850200-qam0ap6ibqff7ncmjjrcrnmd6r3svs8o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
